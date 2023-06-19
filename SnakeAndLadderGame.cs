@@ -13,7 +13,14 @@ namespace SnakeAndLadderProblems
         {
             Console.WriteLine("Snake and Ladder Game!");
             int presentPosition = 0;
-            int diceRolls = 0;
+            
+
+            
+                Random rnd = new Random();
+                int diceValue = rnd.Next(1,7);
+               
+                Console.WriteLine("your dice value: " + diceValue);
+           
 
         }
     }
